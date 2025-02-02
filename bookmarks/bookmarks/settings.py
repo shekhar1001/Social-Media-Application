@@ -142,9 +142,7 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.twitter.TwitterOAuth',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '414946325003439' # Facebook App ID 
-SOCIAL_AUTH_FACEBOOK_SECRET = '5196c0ca1f11221f548550afa13ec05d' # Facebook App Secret
-SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+
 
 SOCIAL_AUTH_PIPELINE = [
     'social_core.pipeline.social_auth.social_details',
